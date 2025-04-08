@@ -6,7 +6,7 @@ const menu = {
     { name: "Americano", description: "double shot espresso with hot water", hot: 3.75, cold: 3.75 },
     { name: "Cortado", description: "equal amounts espresso & steamed milk", hot: 4, cold: null },
     { name: "Cappuccino", description: "double shot espresso, steamed milk & foam", hot: 4.25, cold: null },
-    { name: "Latte", description: "double shot espresso with (steamed) milk", hot: 4.5, cold: 5 },
+    { name: "Latte", description: "double shot espresso with steamed milk", hot: 4.5, cold: 5 },
     { name: "Drip Coffee", description: "smooth coffee, made till ordered", hot: 3.5, cold: null },
     { name: "Pour Over", description: "hand pour drip coffee to perfection", hot: null, cold: null },
     { name: "Cold Brew", description: "coffee brewed 18 hours in cold temperature", hot: null, cold: 5 },
@@ -43,7 +43,7 @@ const sectionTitles = {
 
 export default function ViejoMenuApp() {
   return (
-    <div className="p-6 space-y-10 max-w-md mx-auto bg-[#f5f5f4] text-[#1e1e1e] rounded-lg">
+    <div className="p-6 space-y-10 max-w-md mx-auto bg-[white] text-[#1e1e1e] rounded-lg">
       <div className="text-center">
         <img
           src="/viejo-logo.png"

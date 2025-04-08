@@ -26,30 +26,24 @@ npm start
 
 ### ✅ Netlify Settings
 
-When deploying to [Netlify](https://netlify.com):
-
-- **Build Command**:  
-  ```
-  npm run build
-  ```
-
-- **Publish Directory**:  
-  ```
-  build
-  ```
-
-- ✅ Add a `_redirects` file inside your `/public` folder with:
+- **Build Command**: `npm run build`
+- **Publish Directory**: `build`
+- ✅ Add a `_redirects` file inside `/public` with:
   ```
   /*    /index.html   200
   ```
 
-### ✅ Vercel Settings
+Deploy at [https://app.netlify.com/drop](https://app.netlify.com/drop) or connect your GitHub repo in the Netlify dashboard.
 
-If deploying to [Vercel](https://vercel.com):
+---
+
+### ✅ Vercel Settings
 
 - **Framework Preset**: `Create React App`
 - **Build Command**: `npm run build`
 - **Output Directory**: `build`
+
+Deploy using [https://vercel.com/import](https://vercel.com/import) or link your GitHub repo via the Vercel dashboard.
 
 ---
 
@@ -68,16 +62,6 @@ viejo-coffee-menu/
 ├── package.json
 └── README.md
 ```
-
----
-
-## 🧠 Features
-
-- Fully responsive menu UI
-- Dynamic categories: Originals, Specialty Lattes, Not Coffee, and Grab & Go
-- Tailored for local El Paso coffee culture
-- Logo integration
-- Ready for future add-ons (like QR ordering, CMS integration, etc.)
 
 ---
 

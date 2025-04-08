@@ -1,6 +1,4 @@
 import React from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 
 const menu = {
   originals: [
@@ -47,7 +45,11 @@ export default function ViejoMenuApp() {
   return (
     <div className="p-6 space-y-10 max-w-md mx-auto bg-[#f5f5f4] text-[#1e1e1e] rounded-lg">
       <div className="text-center">
-        <h1 className="text-6xl font-bold font-serif tracking-tighter">viejo coffee</h1>
+        <img
+          src="/viejo-logo.png"
+          alt="Viejo Coffee Logo"
+          className="mx-auto w-full max-w-xs mb-2"
+        />
         <p className="text-sm text-gray-500 mt-1 uppercase tracking-wide">el paso, texas</p>
       </div>
 
@@ -66,7 +68,7 @@ export default function ViejoMenuApp() {
                       <span className="font-bold">${item.price}</span>
                     ) : (
                       <span className="text-xs text-gray-600">
-                        {item.hot !== null && `Hot: $${item.hot}`}
+                        {item.hot !== null && `Hot: $${item.hot}`} 
                         {item.hot !== null && item.cold !== null && " / "}
                         {item.cold !== null && `Cold: $${item.cold}`}
                       </span>
@@ -80,7 +82,7 @@ export default function ViejoMenuApp() {
         </div>
       ))}
 
-      <Separator className="my-8" />
+      <div className="my-8 border-t border-gray-400"></div>
 
       <div className="text-xs text-center text-gray-600">
         <p className="mb-2">

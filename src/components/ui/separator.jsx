@@ -1,1 +1,0 @@
-export const Separator = ({ className }) => <hr className={className || 'my-4 border-gray-300'} />;

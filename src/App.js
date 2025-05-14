@@ -58,7 +58,7 @@ export default function ViejoMenuApp() {
   <img
     src="/drink-header.jpg"
     alt="Viejo coffee moment"
-    className="mx-auto w-full max-w-xs rounded-md mb-2"
+    className="mx-auto w-full max-w-xs rounded-md mb-3"
   />
   <img
     src="/viejo-logo.png"

@@ -35,7 +35,6 @@ const menu = {
     { name: "Lattes", price: 5.5 },
     { name: "Box Water", price: 2.5 },
     { name: "Mineragua", price: 2.25 },
-    { name: "Kombucha Madre Nostra", price: 4.5 },
     { name: "Gansito", price: 1.75 },
     { name: "Banana Bread", price: 3.5 },
     { name: "Butter Croissant", price: 3.0 },

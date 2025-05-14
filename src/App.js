@@ -19,6 +19,8 @@ const menu = {
     { name: "Cocoa Nana", description: "mexican mocha (chocolate abuelita latte)", hot: 5.5, cold: 6.0 },
     { name: "Horchata Matcha Latte", description: "Gorillae matcha with non dairy Horchata", hot: null, cold: 6.0 },
     { name: "Horchata Mango Latte", description: "Gorillae matcha with fresh mango", hot: null, cold: 6.0 },
+  ],
+  affogatos: [ 
     { name: "Affogato (Espresso)", description: "espresso poured over vanilla ice cream", hot: null, cold: 5.0 },
     { name: "Affogato (Matcha)", description: "matcha poured over vanilla ice cream", hot: null, cold: 5.0 },
     { name: "Affogato Kids (Lechera)", description: "vanilla ice cream with sweetened condensed milk", hot: null, cold: 4.0 },

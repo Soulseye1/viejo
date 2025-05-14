@@ -55,18 +55,19 @@ export default function ViejoMenuApp() {
   return (
     <div className="p-6 space-y-10 max-w-md mx-auto bg-white text-[#1e1e1e] rounded-lg">
       <div className="text-center">
-    <img
-  src="/drink-header.jpg"
-  alt="Header coffee image"
-  className="w-full h-48 object-cover rounded-md mb-4"
-/>
-        <img
-          src="/viejo-logo.png"
-          alt="Viejo Coffee Logo"
-          className="mx-auto w-full max-w-xs mb-2"
-        />
-        <p className="text-sm text-gray-500 mt-1 uppercase tracking-wide"></p>
-      </div>
+  <img
+    src="/drink-header.jpg"
+    alt="Viejo coffee moment"
+    className="mx-auto w-full max-w-xs rounded-md mb-2"
+  />
+  <img
+    src="/viejo-logo.png"
+    alt="Viejo Coffee Logo"
+    className="mx-auto w-full max-w-xs mb-2"
+  />
+  <p className="text-sm text-gray-500 mt-1 uppercase tracking-wide">=</p>
+</div>
+
 
       {menu && Object.entries(menu).map(([section, items]) => (
         <div key={section}>

@@ -120,8 +120,8 @@ export default function ViejoMenuApp() {
         </p>
         <p className="mb-4">
           <strong>Hours:</strong><br />
-          Monday to Friday: 7:00 AM – 4:00 PM<br />
-          Saturday & Sunday: 8:00 AM – 3:00 PM
+          Monday to Saturday: 7:00 AM – 4:00 PM<br />
+          Sunday: 10:00 AM – 2:00 PM
         </p>
         <p>
           <strong>Follow us:</strong><br />

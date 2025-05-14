@@ -110,7 +110,7 @@ export default function ViejoMenuApp() {
         </p>
         <p className="mb-2">
           <strong>Contact:</strong><br />
-          viejocoffee@gmail.com
+          viejo@movinggrams.com
         </p>
         <p className="mb-4">
           <strong>Hours:</strong><br />

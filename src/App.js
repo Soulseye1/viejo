@@ -53,7 +53,7 @@ const sectionTitles = {
 
 export default function ViejoMenuApp() {
   return (
-    <div className="p-6 space-y-10 max-w-md mx-auto bg-white text-[#1e1e1e] rounded-lg">
+    <div className="p-6 space-y-10 max-w-md mx-auto bg-white text-[#1e1e1e] rounded-sm">
       <div className="text-center">
   <img
     src="/drink-header.jpg"
@@ -65,7 +65,7 @@ export default function ViejoMenuApp() {
     alt="Viejo Coffee Logo"
     className="mx-auto w-full max-w-xs mb-2"
   />
-  <p className="text-sm text-gray-500 mt-1 uppercase tracking-wide">=</p>
+  <p className="text-sm text-gray-500 mt-1 uppercase tracking-wide"></p>
 </div>
 
 

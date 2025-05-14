@@ -57,10 +57,10 @@ export default function ViejoMenuApp() {
     <div className="p-6 space-y-10 max-w-md mx-auto bg-white text-[#1e1e1e] rounded-sm">
       <div className="text-center">
   <img
-    src="/drink-header.jpg"
-    alt="Viejo coffee moment"
-    className="mx-auto w-full max-w-xs rounded-md mb-3"
-  />
+  src="/drink-header.jpg"
+  alt="Viejo coffee moment"
+  className="mx-auto w-full max-w-md rounded-md mb-3"
+/>
   <img
     src="/viejo-logo.png"
     alt="Viejo Coffee Logo"

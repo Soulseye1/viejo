@@ -60,7 +60,7 @@ export default function ViejoMenuApp() {
           alt="Viejo Coffee Logo"
           className="mx-auto w-full max-w-xs mb-2"
         />
-        <p className="text-sm text-gray-500 mt-1 uppercase tracking-wide">el paso, texas</p>
+        <p className="text-sm text-gray-500 mt-1 uppercase tracking-wide"></p>
       </div>
 
       {menu && Object.entries(menu).map(([section, items]) => (

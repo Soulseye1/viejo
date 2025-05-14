@@ -106,10 +106,7 @@ export default function ViejoMenuApp() {
           <strong>Milk Options:</strong> Organic Whole, 2% Lact. Free, Almond, Oat<br />
           <strong>Organic Syrups (+$0.50):</strong> Agave, Vanilla, Caramel
         </p>
-        <p className="italic mb-4">
-          Sorry we had to raise the prices on some of your favorite items.<br />
-          We will adjust prices as soon as they normalize. Thank you for understanding.
-        </p>
+      
         <p className="mb-2">
           <strong>Find us at:</strong><br />
           2519 N Stanton St Rear<br />

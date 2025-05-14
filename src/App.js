@@ -84,11 +84,20 @@ export default function ViejoMenuApp() {
                     {item.price !== undefined ? (
                       <span className="font-bold">${item.price}</span>
                     ) : (
-                      <span className="text-xs text-gray-600">
-                        {item.hot !== null && `Hot: $${item.hot}`} 
-                        {item.hot !== null && item.cold !== null && " / "}
-                        {item.cold !== null && `Cold: $${item.cold}`}
-                      </span>
+                    <span className="text-xs text-gray-600">
+  {item.hot !== null && (
+    <>
+      Hot: <sup className="align-super text-[0.6rem]">$</sup>{item.hot}
+    </>
+  )}
+  {item.hot !== null && item.cold !== null && " / "}
+  {item.cold !== null && (
+    <>
+      Cold: <sup className="align-super text-[0.6rem]">$</sup>{item.cold}
+    </>
+  )}
+</span>
+
                     )}
                   </div>
                   <p className="text-xs text-gray-500 mt-1 italic leading-snug">{item.description}</p>
